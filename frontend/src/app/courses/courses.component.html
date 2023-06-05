@@ -1,0 +1,27 @@
+<div class="area-categories">
+    <div class="header-text-categories">Categories</div>
+    <button (click)="onCategoryClick(category)" class="category-card" *ngFor = "let category of categories">
+      <mat-card-content class="category-name">{{category.name}}</mat-card-content>
+    </button>
+</div>
+
+<div class="area-courses">
+    <div class="header-text-courses">Courses</div>
+
+    <mat-card class="course-card" *ngFor = "let course of courses">
+        <img mat-card-image class="course-image" src={{course.imagePath}} alt="Photo of a Shiba Inu">
+      <mat-card-header class="courses-header">
+        <mat-card-title class="course-title">{{course.title}}</mat-card-title>
+        <div class="course-price">${{course.price}}</div>
+      </mat-card-header>
+      <mat-card-content>
+        <p class="my-subtitle">
+          {{course.description}}
+        </p>
+      </mat-card-content>
+      <mat-card-actions class="course-actions">
+        <button mat-fab class="course-button" extended color="primary">Enroll</button>
+      </mat-card-actions>
+
+    </mat-card>
+</div>

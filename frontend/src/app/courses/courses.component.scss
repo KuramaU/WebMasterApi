@@ -1,0 +1,114 @@
+.my-subtitle
+{
+   font-family: unquote("Roboto");
+   font-size: 16px;
+}
+.course-actions
+{
+   display: flex;
+   justify-content: center;
+}
+.course-card
+{
+   width: 18rem;
+   margin: 1.5rem;
+   border-radius: 1rem;
+   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+.area-courses
+{
+   float: right;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   width: 70%;
+}
+.course-price
+{
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #048f82;
+    font-family: unquote("Roboto");
+    font-size: 16px;
+}
+.course-title
+{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.header-text-courses
+{
+    font-size: 2rem;
+    font-family: unquote("Roboto");
+    text-align: center;
+    width:100%;
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+.course-image
+{
+    margin: 1rem;
+    border-radius: 0.2rem;
+}
+.course-button
+{
+    background-color: #17766e;
+    padding: 0.7rem;
+    width: 100%;
+    margin: 1rem;
+
+}
+
+.courses-header
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.category-title
+{
+   font-family: unquote("Roboto");
+   font-size: 18px;
+}
+.categories-grid-display
+{
+   display: flex;
+   flex-direction: column;
+}
+.area-categories
+{
+   float: left;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   width: 25%;
+   //background-color: rgb(244, 244, 244);
+   //border-radius: 1rem;
+   margin: 0.5rem;
+}
+.header-text-categories
+{
+   font-size: 2rem;
+   font-family: unquote("Roboto");
+   text-align: center;
+   width:100%;
+   font-weight: 500;
+   margin-bottom: 1.5rem;
+   margin-top: 1.5rem;
+}
+.category-name
+{
+   font-family: unquote("Roboto");
+   font-size: 1.1rem;
+   font-weight: 500;
+}
+.category-card
+{
+   margin: 2rem;
+   margin-top: 0;
+   padding: 0.5rem;
+   border-radius: 0.5rem;
+   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+   background-color: #bae3d3;
+   border: 0px;
+}
